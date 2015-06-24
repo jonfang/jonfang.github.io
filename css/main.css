@@ -4,9 +4,6 @@ body {
 }
 nav ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    position: absolute;
-    top: 50px;
-    right: 0px;
     padding: 0px;
     list-style: none;
     font-weight: bold;
