@@ -4,5 +4,5 @@ title: "Personal Website Guide"
 date: 2015-06-26
 ---
 
-As I am working on building my personal website, I would like to share about the process of creating my own website.
-Guide incoming!
+This is a quick guide for anyone who wants to build a personal website using Github without spending any money buying domain(yet).
+
