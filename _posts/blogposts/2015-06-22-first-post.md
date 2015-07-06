@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Jonathan Fang, Launches Site"
+title: "Testing"
 date: 2015-06-22
 ---
 
-First Post! 
-Hopefully I can do something meaningful with my blogs!
+Testing
