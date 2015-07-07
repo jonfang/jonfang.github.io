@@ -1,8 +1,10 @@
 ---
 category: blog
 layout: post
-title: "Personal Website Guide"
+title: "My Personal Website"
 date: 2015-06-26
 ---
 
-This is a quick guide for anyone who wants to build a personal website using Github without spending any money buying domain(yet).
+Blogging to record the process of creating my personal website.
+
+
