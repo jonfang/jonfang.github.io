@@ -1,4 +1,5 @@
 ---
+category: blog
 layout: post
 title: "Jonathan Fang, Launches Site"
 date: 2015-06-22
