@@ -1,4 +1,5 @@
 ---
+category: blog
 layout: post
 title: "Personal Website Guide"
 date: 2015-06-26
