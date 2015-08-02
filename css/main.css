@@ -4,16 +4,22 @@ body {
     background-image: url("../blue-sky.jpg");
 }
 
-
+aside {
+  display: inline-block;
+  margin: 1em;
+  
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align: right;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    text-align: right;
 }
 a {
     text-decoration: none;
