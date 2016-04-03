@@ -7,6 +7,13 @@ Jekyll: http://haacked.com/archive/2013/12/02/dr-jekyll-and-mr-haack/#comment-11
 Jekyll local site: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/#platform-windows <br />
 Multiple blogs: https://github.com/ggarron/multi-blog-jekyll <br />
 https://www.garron.me/en/blog/multi-blog-site-jekyll.html <br />
+
+
+#Starting server
 bundle exec jekyll serve
+#Push changes to server
+git pull
+commit(?)
+git push
   
 
