@@ -12,8 +12,6 @@ https://www.garron.me/en/blog/multi-blog-site-jekyll.html <br />
 #Starting server
 bundle exec jekyll serve
 #Push changes to server
-git pull
-commit(?)
-git push
+git pull ->commit(?) -> git push
   
 
