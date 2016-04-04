@@ -1,7 +1,8 @@
+/*default css layout page*/
 body {
     margin: 60px auto;
     width: 70%;
-    <!-- background-image: url("../blue-sky.jpg"); -->
+    <!--background-image: url("../images/blue-ocean.jpg");-->
 }
 
 aside {
@@ -49,3 +50,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
