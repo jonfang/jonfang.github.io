@@ -9,9 +9,9 @@ Multiple blogs: https://github.com/ggarron/multi-blog-jekyll <br />
 https://www.garron.me/en/blog/multi-blog-site-jekyll.html <br />
 
 
-Starting server
+Starting server<br />
 bundle exec jekyll serve
-Push changes to server
+Push changes to server<br />
 git pull ->commit(?) -> git push
   
 
