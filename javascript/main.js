@@ -1,25 +1,31 @@
 //var sw is a animation switch
-    var sw = false;
+var sw = false;
 
 
-//Switch
+//Switch to enter the page
+
 function myFunction() {
+
+    //console.log(sw);
     sw = !sw;
-    if(sw)
-        $('#switch').html("on");
-        //document.getElementById("switch").innerHTML = "On";
-    else
-        $('#switch').html("off");
-        //document.getElementById("switch").innerHTML = "Off";
+    if(sw){
+        $('#switch').html("Welcome");
+        $('body').toggleClass('loaded');
+    }
 }
 
+/*
 $(document).ready(function() {
+
+    $('body').addClass('loaded');
+    $('h1').css('color','#222222');
 
     setTimeout(function(){
         $('body').addClass('loaded');
         $('h1').css('color','#222222');
-    }, 3000);
-
+    }, 1500);
 });
+*/
 
+$('body').addClass('loaded');
 $('body').toggleClass('loaded');
