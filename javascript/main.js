@@ -27,5 +27,6 @@ $(document).ready(function() {
 });
 */
 
+//run and add the animation
 $('body').addClass('loaded');
 $('body').toggleClass('loaded');

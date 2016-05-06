@@ -21,7 +21,11 @@
     z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
 }
 
-/*animation switch*/
+#loader2 {
+    z-index: 1001; /* additional spinning circles, similar to loader code */
+}
+
+/*animation switch button*/
 
 #switch {
     background-color: #222222;
@@ -49,15 +53,19 @@
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 
 }
+/*remove button background*/
+#switch:focus {outline:0;}
 
+/*shinning hello button*/
 @-webkit-keyframes greenPulse {
-  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  from { background-color: white; -webkit-box-shadow: 0 0 9px #333; }   /*other color #749a02*/
   50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
   to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
 }
 
 
 /*center object*/
+
 #loader {
     display: block;
     position: relative;
@@ -86,6 +94,7 @@
     border-top-color: #e74c3c;
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
 }
 
 #loader:after {
@@ -101,6 +110,52 @@
     -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
+
+#loader2 {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    width: 300px;
+    height: 300px;
+    margin: -150px 0 0 -150px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: white;
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
+}
+
+#loader2:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: greenyellow;
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
+}
+
+#loader2:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: orangered;
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
 
 @-webkit-keyframes spin {
     0%   {
@@ -142,6 +197,13 @@
             transition: all 0.3s ease-out;
 }
 
+.loaded #loader2 {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+
+
 .loaded #loader-wrapper {
         -webkit-transform: translateY(-100%);
             -ms-transform: translateY(-100%);
@@ -166,3 +228,4 @@
 .no-js h1 {
     color: #222222;
 }
+
