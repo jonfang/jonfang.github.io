@@ -112,7 +112,7 @@
 }
 
 #loader2 {
-    display: block;
+   display: block;
     position: relative;
     left: 50%;
     top: 40%;
@@ -128,7 +128,7 @@
 }
 
 #loader2:before {
-    content: "";
+   content: "";
     position: absolute;
     top: 5px;
     left: 5px;
@@ -139,6 +139,7 @@
     border-top-color: greenyellow;
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
 
 }
 
@@ -229,3 +230,4 @@
     color: #222222;
 }
 
+/*The copy begins here*/
