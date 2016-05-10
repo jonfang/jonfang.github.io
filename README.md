@@ -15,3 +15,5 @@ git add . ->git commit -m "First commit" ->git push origin master<br />
 Tutorial for preloading page<br />
 1.https://ihatetomatoes.net/create-css3-spinning-preloader/
 2.https://ihatetomatoes.net/create-custom-preloading-screen/
+Floating clouds<br />
+http://codepen.io/anon/pen/zqeQEE
