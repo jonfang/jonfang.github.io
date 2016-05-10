@@ -11,7 +11,7 @@ https://www.garron.me/en/blog/multi-blog-site-jekyll.html <br />
 Starting server<br />
 bundle exec jekyll serve<br />
 Push changes to server<br />
-git add . ->git commit -m "First commit" ->git push origin master<br />
+git add . ->git commit -m "First commit" ->git pull -> git push origin master<br />
 Tutorial for preloading page<br />
 1.https://ihatetomatoes.net/create-css3-spinning-preloader/
 2.https://ihatetomatoes.net/create-custom-preloading-screen/
