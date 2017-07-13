@@ -1,5 +1,5 @@
 # jonfang.github.io
-The link to the website is: http://http://jonfang.github.io/ <br />
+The link to the website is: http://jonfang.github.io/ <br />
 Jekyll Installation: https://help.github.com/articles/using-jekyll-with-pages/ <br />
 Webpage Tutorial page: http://jmcglone.com/guides/github-pages/ <br />
 Upload Image:http://solutionoptimist.com/2013/12/28/awesome-github-tricks/<br />
